@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head> 
+        <meta chartset="UTF-8">
+        <meta name="viewport" content="width"=device-width,initial-scale=1.0>
+        <title>portofolio sanitasi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1> Sistem Informasi Limbah B3</h1>
+            <p>Bahan Berbahaya dan Beracun</p>
+        </header>
+
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#pengertian">Pengertian</a>
+            <a href="#jenis">Jenis</a>
+            <a href="#pengelolaan">Pengelolaan</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+        <h3 style="text-align:center;">
+            Tamggal dan Waktu:
+            <span id="waktu"></span>
+        </h3>
+        <section class="banner" id="beranda">
+            <h2>Selamat Datang</h2>
+            <p>Website Edukasi Pengelolaan Limbah B3</p>
+        </section>
+        <section id="pengertian" class="card">
+            <h2>Pengertian Limbah B3</h2>
+            <p> Limbah B3 adalah limbah yang mengandung bahan berbahaya dan beracun yang dapat mencemari lingkungan sekitar serta membahayakan kesehatan manusia.</p>
+        </section>
+        <section id="jenis" class="card">
+            <h2>jenis Limbah B3</h2>
+            <ul>
+                <li>Oli Bekas</li>
+                <li>Baterai Bekas</li>
+                <li>Lampu Neon</li>
+                <li>Limbah Medis</li>
+                <li>Bahan Kimia Laboratorium</li>
+            </ul>
+
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Jenis</th>
+                    <th>Kategori</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Oli Bekas</td>
+                    <td>Cair</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Baterai Bekas</td>
+                    <td>Padat</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Limbah Medis</td>
+                    <td>Infeksius</td>
+                </tr>
+            </table>
+        </section>
+        <section id="pengelolaan" class="card">
+            <h2>Cara Mengelolah B3</h2>
+            <ol>
+                <li>Indentifikasi Limbah</li>
+                <li>Penyimpanan Sementara</li>
+                <li>Pelabelan</li>
+                <li>Pengangkutan</li>
+                <li>Pengolahan</li>
+                <li>Pembuangan Akhir</li>
+            </ol>
+        </section>
+        <section id="kontak" class="card">
+            <h2>Hubungi Kami</h2>
+
+            <form id="formkontak" onsubmit="KirimForm(event)">
+                <label>Nama</label>
+                <input type="text">
+
+                <label>Email</label>
+                <input type="email">
+
+                <label>Pesan</label>
+                <textarea rows="5"></textarea>
+
+                <button>Kirim</button>
+            </form>
+        </section>
+
+        <footer>
+            <p> 2026 Website Edukasi Limbah B3</p>
+        </footer></fooer>
+        <script src="script.js"></script>
+    </body>
+</html>
