@@ -15,11 +15,13 @@ header{
     text-align:center;
     padding:90px;
     font-size: 20px;
+    
 
 }
 nav{
     background:#004d40;
     text-align:center;
+    text-decoration: none;
 
 }
 nav a{
